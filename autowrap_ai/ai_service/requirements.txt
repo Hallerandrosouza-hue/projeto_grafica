@@ -1,0 +1,6 @@
+Flask==2.2.5
+opencv-python==4.8.0.76
+numpy==1.24.3
+# torch==2.0.1  # Descomente para usar PyTorch
+# diffusers==0.20.0 # Descomente para Stable Diffusion
+# transformers==4.32.0
