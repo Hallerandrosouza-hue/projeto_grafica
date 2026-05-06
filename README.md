@@ -96,4 +96,91 @@ npm run dev
 Comentários Exaustivos: Atendendo ao requisito crítico, todo o código em Node, Python, React e Three.js possui comentários bloco-a-bloco, explicando desde a definição das rotas até a renderização do Canvas 3D, facilitando muito para desenvolvedores iniciantes expandirem a plataforma.
 Biblioteca de Veículos Expansível: O arquivo ai_service/vehicles.py utiliza um dicionário aninhado que funciona como uma simulação de banco de dados, deixando muito simples a tarefa de cadastrar novas marcas de motos, caminhões e carros com especificações exatas.
 Editor 2D e Ambiente 3D: O frontend implementa uma base estrutural para visualização em Three.js num painel lateral, enquanto reserva um contêiner para a interface "Drag & Drop" tipo Canva.
-Exportação Futura (DPI): A arquitetura do backend e Python já foi desenhada para retornar as imagens em resoluções baseadas em métricas, visando o redimensionamento a 300 DPI, garantindo a alta qualidade para impressoras plotter automotivas.
+Exportação Futura (DPI): A arquitetura do backend e Python já foi desenhada para retornar as imagens em resoluções baseadas em métricas, visando o redimensionamento a 300 DPI, garantindo a alta qualidade para impressoras plotter automotivas. 
+
+
+
+
+
+
+# 🚗🎨 AutoWrap Studio AI
+
+O **AutoWrap Studio AI** é uma plataforma inteligente para criação de adesivos automotivos com inteligência artificial, pensada para simplificar e acelerar todo o processo de design, visualização e preparação para impressão.
+
+A proposta é simples: transformar uma ideia em um adesivo pronto em poucos segundos.
+
+## 💡 Como funciona
+
+O sistema permite que qualquer pessoa — mesmo sem conhecimento em design — consiga criar artes personalizadas para veículos de forma rápida e intuitiva.
+
+Basta seguir o fluxo:
+
+1. O usuário digita uma ideia (ex: “adesivo estilo corrida com chamas vermelhas”)
+2. A inteligência artificial gera automaticamente a arte
+3. A arte é aplicada em um modelo de carro em 3D
+4. O usuário visualiza o resultado em tempo real
+5. Pode ajustar se necessário
+6. Exporta o arquivo pronto para impressão em alta qualidade
+
+## 🎯 Objetivo
+
+Eliminar a dependência de processos manuais demorados e reduzir o retrabalho entre cliente e designer, oferecendo uma solução prática para:
+
+- Gráficas
+- Profissionais de envelopamento automotivo
+- Designers
+- Empresas de personalização
+
+## 🧠 Diferencial
+
+O grande diferencial do AutoWrap Studio AI é unir três etapas em um único sistema:
+
+- Geração automática de arte com IA
+- Simulação visual no veículo (preview realista)
+- Exportação pronta para impressão (alta resolução)
+
+Isso reduz drasticamente o tempo de produção e aumenta a precisão do resultado final.
+
+## 🏗️ Arquitetura do Sistema
+
+O projeto foi estruturado de forma escalável e modular, dividido em três camadas principais:
+
+### Frontend
+Interface moderna inspirada em ferramentas como Canva, responsável pela interação com o usuário e visualização 3D do veículo.
+
+### Backend
+API responsável por gerenciar requisições, segurança e comunicação entre o frontend e o serviço de inteligência artificial.
+
+### Microserviço de IA
+Responsável pela geração das artes e processamento de imagens, incluindo análise de perspectiva e aplicação nos modelos de veículos.
+
+## ⚙️ Tecnologias Utilizadas
+
+- Frontend: React + Next.js + Three.js
+- Backend: Node.js + Express
+- IA e Processamento: Python + OpenCV + modelos generativos
+
+## 🚀 Execução do Projeto
+
+Para rodar o projeto localmente, é necessário iniciar três serviços separadamente:
+
+1. Microserviço de IA (Python)
+2. Backend (Node.js)
+3. Frontend (Next.js)
+
+Cada serviço funciona de forma independente, garantindo maior escalabilidade e organização do sistema.
+
+## 📦 Expansão futura
+
+O projeto foi planejado para evoluir facilmente, permitindo:
+
+- Cadastro de novos veículos com medidas reais
+- Sistema de login e gerenciamento de usuários
+- Histórico de projetos
+- Exportação com precisão para impressão (300 DPI)
+- Integração com bancos de dados
+- Otimização automática de encaixe da arte no veículo
+
+## 📌 Resumo
+
+O AutoWrap Studio AI é uma solução completa que transforma ideias em adesivos automotivos prontos, combinando inteligência artificial, visualização 3D e automação de design em uma única plataforma.
