@@ -12,6 +12,7 @@ HALLERANDRO
 ===================================
 Galera eu fiz milagre Ao conseguir subir essa parte KKK
 AI não tá nem a metade da pasta que tava antes
+Em relação Beck vocês podem mudar o que vocês quiser Querem estar servindo de porra nenhuma
 
 
 ==================================
