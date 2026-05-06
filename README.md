@@ -15,6 +15,8 @@ AI não tá nem a metade da pasta que tava antes..
 
 Em relação Beck vocês podem mudar o que vocês quiser Querem estar servindo de porra nenhuma
 
+OBS: Se vocês quiserem mudar o Os Jarscript para outra  AVONTADE 
+
 
 ==================================
 THAYRO
