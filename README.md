@@ -1,7 +1,7 @@
 ﻿# projeto_grafica
 # projeto_grafica
 =====================================
-Essa parte comentada Pelos Dav
+Essa parte comentada Pelos Dev
 =====================================
 
 Ponto importante se você tiver ideia para melhorar Fiquem à vontade Sabemos O resultado que a gente queremos no final Não importa Os meios
@@ -19,7 +19,7 @@ OBS: Se vocês quiserem mudar o Os Jarscript para outra  AVONTADE
 
 
 ==================================
-THAYRO
+THAYRON
 ==================================
 
 
